@@ -40,7 +40,7 @@ class InvestmentCardTest {
         }
 
         // Executa clique no botão "Mais detalhes"
-        composeTestRule.onNodeWithText("MXRF11").performClick()
+        composeTestRule.onNodeWithText("Mais detalhes").performClick()
 
         // Verifica se o título do alerta é exibido
         composeTestRule.onNodeWithText("Detalhes do investimento").assertIsDisplayed()
